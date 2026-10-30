@@ -1,0 +1,7 @@
+services:
+  fastapi:
+    image: ${IMAGE_NAME:-fastapi-cicd-learning}:${IMAGE_TAG:-latest}
+    container_name: fastapi-calculator
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

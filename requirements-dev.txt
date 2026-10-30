@@ -1,0 +1,10 @@
+
+-r requirements.txt
+
+# Testing
+pytest
+pytest-cov
+httpx
+
+# Code Quality
+ruff
