@@ -8,3 +8,5 @@ tests
 *.pyc
 .env
 venv
+private.pub
+private

@@ -21,7 +21,7 @@ def root():
 
 @app.get("/health")
 def health():
-    return {"status": "healthy"}
+    return {"status": "healt"}
 
 
 @app.post("/add")
