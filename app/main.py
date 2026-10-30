@@ -1,11 +1,10 @@
-
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
 
 app = FastAPI(
     title="CI/CD Learning API",
     description="FastAPI application for learning GitHub Actions",
-    version="1.0.0"
+    version="1.0.0",
 )
 
 
@@ -21,7 +20,7 @@ def root():
 
 @app.get("/health")
 def health():
-    return {"status": "healt"}
+    return {"status": "healthy"}
 
 
 @app.post("/add")
